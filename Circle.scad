@@ -41,7 +41,7 @@ module DUPLO_CIRCLE_Y(DUPLO_X,DUPLO_Y,DUPLO_Z,DUTOST,PULKA,PROTISTRANA) {
                         }
                     }
                 if(PULKA==1){
-                    ZAKLADNI_KRYCHLE(DUPLO_X,DUPLO_Y,DUPLO_Y,0,0,0,DUPLO_Z-DUPLO_Y);
+                    BASIC_BLOCK(DUPLO_X,DUPLO_Y,DUPLO_Y,0,0,0,DUPLO_Z-DUPLO_Y);
                 }
             
             }
