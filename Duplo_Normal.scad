@@ -1,4 +1,4 @@
-include <Duplo/setting.scad>;
+include <Duplo/Setting.scad>;
 include <Duplo/upper_button.scad>;
 include <Duplo/up_pool.scad>;
 include <Duplo/downer_button.scad>;
