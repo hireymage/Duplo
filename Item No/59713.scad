@@ -8,10 +8,10 @@ include <Duplo/zaterasy.scad>;
 
 
 
-DUPLO_BRICK(2,2,1,1,0,0,0);
+DUPLO_BRICK(4,4,1,1,0,0,0);
 
 module DUPLO_BRICK(X,Y,Z,Z_1,X_2,Y_2,Z_2){
-DUPLO_UP_CANNON_BASE(1,1,X_2+0.5,Y_2+0.5,Z+Z_2);//počet čudlíku x,y, souřadnice zobrazení x,y,z
+DUPLO_UP_CANNON_BASE(1,1,X_2+1+0.5,Y_2+1+0.5,Z+Z_2);//počet čudlíku x,y, souřadnice zobrazení x,y,z
     
     
 DUPLO_DOWN_POOL(X,Y,Z,X_2,Y_2,Z_2);//počet čudlíku x,y,Výčka z souřadnice zobrazení x,y,z;
